@@ -1,0 +1,532 @@
+# Recommended .gitattributes to enforce LF endings and mark binary
+gitattributes = """
+# Force consistent line endings
+* text=auto eol=lf
+
+# Treat common binary types as binary
+*.gguf binary
+*.pt binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.pdf binary
+"""
+
+# Write to files
+Path(".gitignore").write_text(gitignore.strip())
+Path(".gitattributes").write_text(gitattributes.strip())
+ cache and logs
+from pathlib import Path
+
+# Create recommended .gitignore for NovaOS (Python + LLM + VS Code environment)
+gitignore = """
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# VS Code
+.vscode/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pytype
+.pytype/
+
+# mypy
+.mypy_cache/
+
+# Local files
+*.log
+logs/
+*.sqlite3
+*.db
+*.pem
+*.key
+
+# Model files
+*.ckpt
+*.pt
+*.gguf
+*.bin
+*.safetensors
+*.onnx
+
+# HuggingFace cache
+~/.cache/huggingface/
+**/.cache/huggingface/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter and notebooks
+.ipynb_checkpoints
+
+# LLM / AI tools
+wandb/
+"""
+
+# Recommended .gitattributes to enforce LF endings and mark binary
+gitattributes = """
+# Force consistent line endings
+* text=auto eol=lf
+
+# Treat common binary types as binary
+*.gguf binary
+*.pt binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.pdf binary
+"""
+
+# Write to files
+Path(".gitignore").write_text(gitignore.strip())
+Path(".gitattributes").write_text(gitattributes.strip())
+
+from pathlib import Path
+
+# Create recommended .gitignore for NovaOS (Python + LLM + VS Code environment)
+gitignore = """
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# VS Code
+.vscode/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pytype
+.pytype/
+
+# mypy
+.mypy_cache/
+
+# Local files
+*.log
+logs/
+*.sqlite3
+*.db
+*.pem
+*.key
+
+# Model files
+*.ckpt
+*.pt
+*.gguf
+*.bin
+*.safetensors
+*.onnx
+
+# HuggingFace cache
+~/.cache/huggingface/
+**/.cache/huggingface/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter and notebooks
+.ipynb_checkpoints
+
+# LLM / AI tools
+wandb/
+"""
+
+# Recommended .gitattributes to enforce LF endings and mark binary
+gitattributes = """
+# Force consistent line endings
+* text=auto eol=lf
+
+# Treat common binary types as binary
+*.gguf binary
+*.pt binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.pdf binary
+"""
+
+# Write to files
+Path(".gitignore").write_text(gitignore.strip())
+Path(".gitattributes").write_text(gitattributes.strip())
+
+from pathlib import Path
+
+# Create recommended .gitignore for NovaOS (Python + LLM + VS Code environment)
+gitignore = """
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# VS Code
+.vscode/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pytype
+.pytype/
+
+# mypy
+.mypy_cache/
+
+# Local files
+*.log
+logs/
+*.sqlite3
+*.db
+*.pem
+*.key
+
+# Model files
+*.ckpt
+*.pt
+*.gguf
+*.bin
+*.safetensors
+*.onnx
+
+# HuggingFace cache
+~/.cache/huggingface/
+**/.cache/huggingface/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter and notebooks
+.ipynb_checkpoints
+
+# LLM / AI tools
+wandb/
+"""
+
+# Recommended .gitattributes to enforce LF endings and mark binary
+gitattributes = """
+# Force consistent line endings
+* text=auto eol=lf
+
+# Treat common binary types as binary
+*.gguf binary
+*.pt binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.pdf binary
+"""
+
+# Write to files
+Path(".gitignore").write_text(gitignore.strip())
+Path(".gitattributes").write_text(gitattributes.strip())
+
+from pathlib import Path
+
+# Create recommended .gitignore for NovaOS (Python + LLM + VS Code environment)
+gitignore = """
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# VS Code
+.vscode/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pytype
+.pytype/
+
+# mypy
+.mypy_cache/
+
+# Local files
+*.log
+logs/
+*.sqlite3
+*.db
+*.pem
+*.key
+
+# Model files
+*.ckpt
+*.pt
+*.gguf
+*.bin
+*.safetensors
+*.onnx
+
+# HuggingFace cache
+~/.cache/huggingface/
+**/.cache/huggingface/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter and notebooks
+.ipynb_checkpoints
+
+# LLM / AI tools
+wandb/
+"""
+
+# Recommended .gitattributes to enforce LF endings and mark binary
+gitattributes = """
+# Force consistent line endings
+* text=auto eol=lf
+
+# Treat common binary types as binary
+*.gguf binary
+*.pt binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.pdf binary
+"""
+
+# Write to files
+Path(".gitignore").write_text(gitignore.strip())
+Path(".gitattributes").write_text(gitattributes.strip())
+
+from pathlib import Path
+
+# Create recommended .gitignore for NovaOS (Python + LLM + VS Code environment)
+gitignore = """
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# VS Code
+.vscode/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pytype
+.pytype/
+
+# mypy
+.mypy_cache/
+
+# Local files
+*.log
+logs/
+*.sqlite3
+*.db
+*.pem
+*.key
+
+# Model files
+*.ckpt
+*.pt
+*.gguf
+*.bin
+*.safetensors
+*.onnx
+
+# HuggingFace cache
+~/.cache/huggingface/
+**/.cache/huggingface/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter and notebooks
+.ipynb_checkpoints
+
+# LLM / AI tools
+wandb/
+"""
+
+# Recommended .gitattributes to enforce LF endings and mark binary
+gitattributes = """
+# Force consistent line endings
+* text=auto eol=lf
+
+# Treat common binary types as binary
+*.gguf binary
+*.pt binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.pdf binary
+"""
+
+# Write to files
+Path(".gitignore").write_text(gitignore.strip())
+Path(".gitattributes").write_text(gitattributes.strip())
+
