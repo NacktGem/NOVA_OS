@@ -422,7 +422,7 @@ gitattributes = """
 *.tar binary
 *.tar.gz binary
 *.pdf binary
-"""
+
 
 # Write to files
 Path(".gitignore").write_text(gitignore.strip())
@@ -431,7 +431,7 @@ Path(".gitattributes").write_text(gitattributes.strip())
 from pathlib import Path
 
 # Create recommended .gitignore for NovaOS (Python + LLM + VS Code environment)
-gitignore = """
+gitignore = 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -506,10 +506,10 @@ Thumbs.db
 
 # LLM / AI tools
 wandb/
-"""
+
 
 # Recommended .gitattributes to enforce LF endings and mark binary
-gitattributes = """
+gitattributes = 
 # Force consistent line endings
 * text=auto eol=lf
 
@@ -524,7 +524,7 @@ gitattributes = """
 *.tar binary
 *.tar.gz binary
 *.pdf binary
-"""
+
 
 # Write to files
 Path(".gitignore").write_text(gitignore.strip())
