@@ -1,0 +1,24 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Frontend build
+        run: |
+          cd frontend
+          npm install
+          npx tsc --noEmit
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Backend compile
+        run: |
+          pip install -r backend/requirements.txt
+          python -m py_compile backend/main.py

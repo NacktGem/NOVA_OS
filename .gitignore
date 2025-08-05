@@ -1,61 +1,25 @@
-from pathlib import Path
-
-# Create recommended .gitignore for NovaOS (Python + LLM + VS Code environment)
-gitignore = """
-# Byte-compiled / optimized / DLL files
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/__pycache__/
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
-*.so
 
 # Environment
 .env
-.venv/
-venv/
-ENV/
-env/
 *.env
+config/secret_key
+config/*.env
 
-# VS Code
-.vscode/
+# Build
+frontend/.next/
+frontend/out/
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage
-htmlcov/
-.tox/
-.nox/
-.coverage
-coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-
-# pytype
-.pytype/
-
-# mypy
-.mypy_cache/
-
-# Local files
-*.log
+# Logs
 logs/
-*.sqlite3
-*.db
-*.pem
-*.key
+*.log
 
-# Model files
+# Models
 *.ckpt
 *.pt
 *.gguf
@@ -63,18 +27,6 @@ logs/
 *.safetensors
 *.onnx
 
-# HuggingFace cache
-~/.cache/huggingface/
-**/.cache/huggingface/
-
-# System files
+# Misc
 .DS_Store
 Thumbs.db
-
-# Jupyter and notebooks
-.ipynb_checkpoints
-
-# LLM / AI tools
-wandb/
-"""
-
