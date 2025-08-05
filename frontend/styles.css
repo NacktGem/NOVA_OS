@@ -6,3 +6,38 @@ body {
   font-family: system-ui, sans-serif;
   background-color: #000;
 }
+
+.brand-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.brand-bg-image {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.6s ease;
+}
+
+.brand-bg-overlay,
+.brand-bg-texture {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.brand-bg-overlay {
+  mix-blend-mode: overlay;
+  opacity: 0.7;
+  transition: background 0.6s ease;
+}
+
+.brand-bg-texture {
+  background-image: url('/assets/rose_motif_texture.png');
+  background-size: cover;
+  mix-blend-mode: overlay;
+  opacity: 0.2;
+}
