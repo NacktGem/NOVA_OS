@@ -1,0 +1,8 @@
+:root {
+  --color-0: #51213A;
+}
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #000;
+}

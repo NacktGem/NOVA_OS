@@ -28,7 +28,7 @@ def main():
         repo_root / 'configs',
         repo_root / 'scripts',
         repo_root / 'blackrose',
-        repo_root / 'family'
+        repo_root / 'gypsycove'
     ]
     code_exts = ['.py', '.sh']
     config_exts = ['.json', '.yaml', '.yml', '.toml']
