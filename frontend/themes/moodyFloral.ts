@@ -1,5 +1,15 @@
-const moodyFloral = {
+import { ThemeConfig } from '../themeEngine';
+
+const moodyFloral: ThemeConfig = {
   name: 'Moody Floral',
-  colors: ['#51213A', '#E9D3C3', '#831A4A', '#BDB6A3', '#A96A6D', '#495C6E'],
+  colors: [
+    '#3C3C44',
+    '#49475B',
+    '#6F7275',
+    '#ADA284',
+    '#F2AE72',
+    '#BE4450',
+  ],
 };
+
 export default moodyFloral;
