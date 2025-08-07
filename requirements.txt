@@ -1,7 +1,7 @@
 acstore==20240407
 aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
-aiohttp==3.12.14
+aiohttp==3.12.15
 aioquic==1.2.0
 aiosignal==1.4.0
 aiosqlite==0.21.0
@@ -38,7 +38,7 @@ bs4==0.0.2
 build==1.2.2.post1
 cachetools==5.5.2
 catalogue==2.0.10
-certifi==2025.7.14
+certifi==2025.8.3
 cffi==1.17.1
 cfgv==3.4.0
 chardet==3.0.4
@@ -80,7 +80,7 @@ distlib==0.3.9
 distro==1.9.0
 Django==5.2.4
 django-csp==4.0
-dnspython==2.3.0
+dnspython==2.6.1
 docstring_parser==0.16
 docutils==0.21.2
 docx2txt==0.8
@@ -110,7 +110,7 @@ filelock==3.16.1
 filetype==1.2.0
 fire==0.7.0
 flake8==7.3.0
-Flask==3.1.0
+Flask==3.1.1
 flask-cors==6.0.1
 flask-talisman==1.1.0
 flatbuffers==25.2.10
@@ -212,7 +212,7 @@ libvsapm-python==20240503
 libvsgpt-python==20240504
 libvshadow-python==20240504
 libvslvm-python==20240504
-litellm==1.72.6
+litellm==1.75.0
 llama-cloud==0.1.32
 llama-cloud-services==0.6.43
 llama-index==0.12.49
@@ -426,7 +426,7 @@ sqlparse==0.5.3
 srsly==2.5.1
 srt==3.5.3
 stack-data==0.6.3
-starlette==0.47.1
+starlette==0.47.2
 stegano==2.0.0
 stevedore==5.4.1
 striprtf==0.0.26
@@ -445,9 +445,9 @@ tokenizers==0.21.2
 tomli==2.2.1
 tomli_w==1.2.0
 tomlkit==0.13.3
-torch==2.0.1
+torch==2.8.0
 torchvision==0.15.2
-tornado==6.4.2
+tornado==6.5
 tqdm==4.67.1
 traitlets==5.14.3
 transformers==4.53.2
@@ -461,13 +461,13 @@ tzdata==2025.2
 tzlocal==1.5.1
 ua-parser==1.0.1
 ua-parser-builtins==0.18.0.post1
-urllib3==1.26.20
+urllib3==2.5.0
 urwid==2.6.16
 user-agents==2.2.0
 uv==0.7.21
 uvicorn==0.35.0
 validators==0.34.0
-virtualenv==20.31.2
+virtualenv==20.33.1
 vosk==0.3.45
 w3lib==2.3.1
 wasabi==1.1.3
