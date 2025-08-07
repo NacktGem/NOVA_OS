@@ -22,7 +22,10 @@ const ALL_THEMES: ThemeConfig[] = [
   forestWhisper,
 ];
 
-const STORAGE_KEY = 'brc_palette';
+// Unique storage key for NovaOS theme selection to avoid clashing with
+// Black Rose palettes. Clients will persist the selected theme across
+// sessions using this key.
+const STORAGE_KEY = 'novaos_palette';
 
 function applyColors(colors: string[]) {
   const root = document.documentElement;
@@ -32,7 +35,7 @@ function applyColors(colors: string[]) {
 }
 
 function hasAccess(name: string): boolean {
-  const key = `brc_theme_owned_${name}`;
+  const key = `novaos_theme_owned_${name}`;
   return localStorage.getItem(key) === 'true' || name === 'Moody Floral';
 }
 
@@ -40,10 +43,14 @@ async function purchaseTheme(name: string): Promise<boolean> {
   const res = await fetch('/api/purchase-theme', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ theme: name }),
+    // Include a user identifier when purchasing a theme.  In a future
+    // iteration this value should be replaced with the logged-in user's
+    // unique identifier (e.g. derived from a JWT).  For now we default
+    // to "anonymous" so the backend can accept the request.
+    body: JSON.stringify({ theme: name, user_id: 'anonymous' }),
   });
   if (res.ok) {
-    const key = `brc_theme_owned_${name}`;
+    const key = `novaos_theme_owned_${name}`;
     localStorage.setItem(key, 'true');
     return true;
   }
