@@ -18,3 +18,11 @@ services:
       - "3000:3000"
     depends_on:
       - backend
+  gypsycove:
+    build:
+      context: ..
+      dockerfile: infra/gypsycove.Dockerfile
+    env_file:
+      - ../config/.env.example
+    ports:
+      - "8100:8100"
