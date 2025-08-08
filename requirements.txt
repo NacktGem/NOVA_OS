@@ -80,7 +80,7 @@ distlib==0.3.9
 distro==1.9.0
 Django==5.2.4
 django-csp==4.0
-dnspython==2.6.1
+dnspython==2.7.0
 docstring_parser==0.16
 docutils==0.21.2
 docx2txt==0.8
@@ -447,7 +447,7 @@ tomli_w==1.2.0
 tomlkit==0.13.3
 torch==2.8.0
 torchvision==0.15.2
-tornado==6.5
+tornado==6.5.1
 tqdm==4.67.1
 traitlets==5.14.3
 transformers==4.53.2
