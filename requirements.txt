@@ -212,7 +212,7 @@ libvsapm-python==20240503
 libvsgpt-python==20240504
 libvshadow-python==20240504
 libvslvm-python==20240504
-litellm==1.75.0
+litellm==1.75.3
 llama-cloud==0.1.32
 llama-cloud-services==0.6.43
 llama-index==0.12.49
@@ -464,7 +464,7 @@ ua-parser-builtins==0.18.0.post1
 urllib3==2.5.0
 urwid==2.6.16
 user-agents==2.2.0
-uv==0.7.21
+uv==0.8.6
 uvicorn==0.35.0
 validators==0.34.0
 virtualenv==20.33.1
